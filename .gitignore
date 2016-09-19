@@ -1,4 +1,3 @@
-# Created by .ignore support plugin (hsz.mobi)
 ### NotepadPP template
 # Notepad++ backups #
 *.bak
@@ -292,3 +291,11 @@ Session.vim
 .netrwhist
 # auto-generated tag files
 tags
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
