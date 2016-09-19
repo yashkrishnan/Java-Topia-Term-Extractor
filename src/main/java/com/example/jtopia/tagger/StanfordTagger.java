@@ -1,8 +1,8 @@
 package com.example.jtopia.tagger;
 
 import com.example.jtopia.configurations.JTopiaConfiguration;
-import com.example.jtopia.models.TermDocument;
 import com.example.jtopia.container.TaggedTermsContainer;
+import com.example.jtopia.models.TermDocument;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 public class StanfordTagger extends DefaultTagger implements Tagger {

@@ -1,8 +1,8 @@
 package com.example.jtopia.applications;
 
 import com.example.jtopia.configurations.JTopiaConfiguration;
-import com.example.jtopia.models.TermDocument;
 import com.example.jtopia.extractor.TermsExtractor;
+import com.example.jtopia.models.TermDocument;
 import org.apache.log4j.Logger;
 
 import java.io.*;

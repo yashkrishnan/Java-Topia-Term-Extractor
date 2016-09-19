@@ -1,7 +1,7 @@
 package com.example.jtopia.tagger;
 
-import com.example.jtopia.models.TermDocument;
 import com.example.jtopia.container.TaggedTermsContainer;
+import com.example.jtopia.models.TermDocument;
 
 import java.io.*;
 import java.util.LinkedHashMap;
