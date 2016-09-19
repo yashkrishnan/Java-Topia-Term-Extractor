@@ -1,9 +1,9 @@
-package com.textbytes.jtopia.filter;
+package com.example.jtopia.filter;
 
+import com.example.jtopia.helpers.DateUtils;
+import com.example.jtopia.helpers.PunctuationRemover;
 import com.sree.textbytes.StringHelpers.StopWords;
 import com.sree.textbytes.StringHelpers.string;
-import com.textbytes.jtopia.helpers.DateUtils;
-import com.textbytes.jtopia.helpers.PunctuationRemover;
 import org.apache.commons.lang.WordUtils;
 import org.apache.log4j.Logger;
 

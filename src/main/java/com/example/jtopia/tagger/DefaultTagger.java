@@ -1,9 +1,9 @@
-package com.textbytes.jtopia.tagger;
+package com.example.jtopia.tagger;
 
+import com.example.jtopia.container.TaggedTermsContainer;
 import com.sree.textbytes.StringHelpers.string;
-import com.textbytes.jtopia.TermDocument;
-import com.textbytes.jtopia.container.TaggedTerms;
-import com.textbytes.jtopia.container.TaggedTermsContainer;
+import com.example.jtopia.models.TermDocument;
+import com.example.jtopia.container.TaggedTerms;
 import org.apache.log4j.Logger;
 
 import java.util.Arrays;

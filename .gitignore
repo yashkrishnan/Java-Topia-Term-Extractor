@@ -297,5 +297,6 @@ tags
 # IntelliJ project files
 .idea
 *.iml
-out
 gen
+log
+logs

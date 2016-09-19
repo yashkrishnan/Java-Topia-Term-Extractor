@@ -1,4 +1,4 @@
-package com.textbytes.jtopia;
+package com.example.jtopia.configurations;
 
 /**
  * <p>
@@ -6,7 +6,7 @@ package com.textbytes.jtopia;
  */
 public class JTopiaConfiguration {
 
-    static String taggerType = "";
+    public static String taggerType = "";
     private static int singleStrengthMinOccur;
     private static int noLimitStrength;
     private static String modelFileLocation = "";

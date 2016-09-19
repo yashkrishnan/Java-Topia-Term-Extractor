@@ -1,7 +1,7 @@
-package com.textbytes.jtopia.extractor;
+package com.example.jtopia.extractor;
 
-import com.textbytes.jtopia.container.TaggedTerms;
-import com.textbytes.jtopia.container.TaggedTermsContainer;
+import com.example.jtopia.container.TaggedTerms;
+import com.example.jtopia.container.TaggedTermsContainer;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;

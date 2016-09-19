@@ -1,4 +1,4 @@
-package com.textbytes.jtopia.container;
+package com.example.jtopia.container;
 
 /**
  * Tagged terms class

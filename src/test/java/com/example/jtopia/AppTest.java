@@ -1,4 +1,4 @@
-package com.textbytes.jtopia;
+package com.example.jtopia;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

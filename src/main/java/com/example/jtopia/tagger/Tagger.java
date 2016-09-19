@@ -1,7 +1,7 @@
-package com.textbytes.jtopia.tagger;
+package com.example.jtopia.tagger;
 
 
-import com.textbytes.jtopia.TermDocument;
+import com.example.jtopia.models.TermDocument;
 
 public interface Tagger {
     /**

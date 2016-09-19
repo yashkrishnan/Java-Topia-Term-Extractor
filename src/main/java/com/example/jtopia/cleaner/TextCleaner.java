@@ -1,4 +1,4 @@
-package com.textbytes.jtopia.cleaner;
+package com.example.jtopia.cleaner;
 
 import com.sree.textbytes.StringHelpers.string;
 import org.apache.log4j.Logger;

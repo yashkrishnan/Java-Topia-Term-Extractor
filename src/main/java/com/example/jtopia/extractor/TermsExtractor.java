@@ -1,13 +1,14 @@
-package com.textbytes.jtopia;
+package com.example.jtopia.extractor;
 
+import com.example.jtopia.cleaner.TextCleaner;
+import com.example.jtopia.configurations.JTopiaConfiguration;
+import com.example.jtopia.container.TaggedTermsContainer;
+import com.example.jtopia.filter.TermsFilter;
+import com.example.jtopia.models.TermDocument;
+import com.example.jtopia.tagger.LexiconTagger;
+import com.example.jtopia.tagger.OpenNLPTagger;
+import com.example.jtopia.tagger.StanfordTagger;
 import com.sree.textbytes.StringHelpers.string;
-import com.textbytes.jtopia.cleaner.TextCleaner;
-import com.textbytes.jtopia.container.TaggedTermsContainer;
-import com.textbytes.jtopia.extractor.TermExtractor;
-import com.textbytes.jtopia.filter.TermsFilter;
-import com.textbytes.jtopia.tagger.LexiconTagger;
-import com.textbytes.jtopia.tagger.OpenNLPTagger;
-import com.textbytes.jtopia.tagger.StanfordTagger;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
@@ -18,10 +19,10 @@ import java.util.Map;
  *
  */
 
-class TermsExtractor {
+public class TermsExtractor {
     public static Logger logger = Logger.getLogger(TermsExtractor.class.getName());
 
-    TermDocument performTermExtraction(String text) {
+    public TermDocument performTermExtraction(String text) {
         if (!string.isNullOrEmpty(text) && !string.isNullOrEmpty(JTopiaConfiguration.getModelFileLocation())) {
             logger.info("Input String and lexicon is neither null nor empty");
             TextCleaner textCleaner = new TextCleaner();

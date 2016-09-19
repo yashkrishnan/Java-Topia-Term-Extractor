@@ -1,5 +1,8 @@
-package com.textbytes.jtopia;
+package com.example.jtopia.applications;
 
+import com.example.jtopia.configurations.JTopiaConfiguration;
+import com.example.jtopia.models.TermDocument;
+import com.example.jtopia.extractor.TermsExtractor;
 import org.apache.log4j.Logger;
 
 import java.io.*;
@@ -8,6 +11,8 @@ public class JTopiaApplication {
     public static Logger logger = Logger.getLogger(JTopiaApplication.class.getName());
 
     public static void main(String[] args) {
+        //Default arguments : stanford model/stanford/english-left3words-distsim.tagger example.txt
+
         //for default lexicon POS tags
         //JTopiaConfiguration.setTaggerType("default");
         // for openNLP POS tagger

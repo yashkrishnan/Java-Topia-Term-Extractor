@@ -1,4 +1,4 @@
-package com.textbytes.jtopia.helpers;
+package com.example.jtopia.helpers;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,6 +1,6 @@
-package com.textbytes.jtopia;
+package com.example.jtopia.models;
 
-import com.textbytes.jtopia.container.TaggedTermsContainer;
+import com.example.jtopia.container.TaggedTermsContainer;
 
 import java.util.*;
 
