@@ -19,10 +19,7 @@ public class JTopiaApplication {
         //JTopiaConfiguration.setTaggerType("openNLP");
         //for Stanford POS tagger
         //JTopiaConfiguration.setTaggerType("stanford");
-
         JTopiaConfiguration.setTaggerType(args[0]);
-        JTopiaConfiguration.setSingleStrengthMinOccur(3);
-        JTopiaConfiguration.setNoLimitStrength(2);
 
         // if tagger type is "openNLP" then give the openNLP POS tagger path
         //JTopiaConfiguration.setModelFileLocation("model/openNLP/en-pos-maxent.bin");
@@ -30,8 +27,10 @@ public class JTopiaApplication {
         //JTopiaConfiguration.setModelFileLocation("model/default/english-lexicon.txt");
         // if tagger type is "stanford "
         //JTopiaConfiguration.setModelFileLocation("model/stanford/english-left3words-distsim.tagger");
-
         JTopiaConfiguration.setModelFileLocation(args[1]);
+
+        JTopiaConfiguration.setSingleStrengthMinOccur(3);
+        JTopiaConfiguration.setNoLimitStrength(2);
 
         String line = "";
         try {
